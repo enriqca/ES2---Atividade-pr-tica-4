@@ -1,3 +1,6 @@
+// Engenharia de software 2 - Atividade prática 4
+// Henrique César
+
 const { add, subtract, multiply, divide } = require('./calculator');
 
 describe("Calculator Tests", () => {

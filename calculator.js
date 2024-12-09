@@ -1,3 +1,6 @@
+// Engenharia de software 2 - Atividade prática 4
+// Henrique César
+
 function add(a, b) {
     return a + b;
 }
