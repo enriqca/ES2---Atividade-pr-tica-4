@@ -34,14 +34,14 @@ describe("Calculator Tests", () => {
     });
 
     test('Exponentiation of positive number', () => {
-        expect(exp(2)).toBeCloseTo(Math.exp(2), 5);  // Usando Math.exp como referência
+        expect(exp(2,4)).toBe(16);
       });
       
       test('Exponentiation of zero', () => {
-        expect(exp(0)).toBe(1);
+        expect(exp(1,0)).toBe(1);
       });
       
       test('Exponentiation of negative number', () => {
-        expect(exp(-1)).toBeCloseTo(Math.exp(-1), 5);  // Usando Math.exp como referência
+        expect(exp(-1,2)).toBe(1); 
       });
 });
