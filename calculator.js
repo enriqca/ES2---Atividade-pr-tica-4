@@ -20,4 +20,10 @@ function divide(a, b) {
     return a / b;
 }
 
+function exp(a,b){
+    let result = 0;
+    for(i=0;i<b;i++) result += a;
+    return result;
+}
+
 module.exports = { add, subtract, multiply, divide };
